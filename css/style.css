@@ -1,0 +1,93 @@
+#imageback{
+    background:url("../images/home.jpg") no-repeat;
+	background-size:100%;
+	background-color: black;
+}
+
+body{
+	background-color: black;
+}
+
+nav{
+	text-decoration: none;
+	display:inline-block;
+	color: greenyellow;
+}
+
+.navleft {
+	position: fixed;
+	height: 350px;
+    line-height:30px;
+    background-color:#333333;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: yellowgreen;
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+}
+
+.hcenter{
+	height:100px;
+	text-align:center;
+	line-height:40px;
+	margin:0 auto;
+	color: greenyellow;
+	}
+
+.hleft{
+	height:40px;
+	line-height:0p4;
+	margin:0 auto;
+	color: white;
+	}
+
+p{
+	color: white;
+}
+
+address{
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.image_wrap{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	border: 5px;
+}
+
+.picfull{
+	width: 60%;
+	height: auto;
+	margin: 20px;
+}
+
+section {
+    width:100%;
+    float:left;
+	padding:10px;
+	border: 10px; 	 
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
